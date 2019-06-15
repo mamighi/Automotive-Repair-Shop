@@ -1,0 +1,6 @@
+c:\users\mohammad\documents\visual studio 2013\Projects\automotive repair shop\automotive repair shop\bin\automotive repair shop.dll.config
+c:\users\mohammad\documents\visual studio 2013\Projects\automotive repair shop\automotive repair shop\bin\automotive repair shop.dll
+c:\users\mohammad\documents\visual studio 2013\Projects\automotive repair shop\automotive repair shop\bin\automotive repair shop.pdb
+c:\users\mohammad\documents\visual studio 2013\Projects\automotive repair shop\automotive repair shop\obj\Debug\automotive repair shop.dll
+c:\users\mohammad\documents\visual studio 2013\Projects\automotive repair shop\automotive repair shop\obj\Debug\automotive repair shop.pdb
+C:\Users\mohammad\documents\visual studio 2013\Projects\automotive repair shop\automotive repair shop\obj\Debug\automotive repair shop.csprojResolveAssemblyReference.cache

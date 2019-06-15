@@ -1,0 +1,1913 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="f4208c60-5560-4964-96fb-8dd31d6d97a5"
+  name="ModelingProject1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="d6f486db-0a63-47bd-b478-211895bf5200"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3D::"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="128aac5c-1f7c-4c61-a08f-e9d11ce9dfd2">
+      <profileInstance
+        Id="25b6af95-d247-4824-94e5-09c6e27af844"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="9ce17a1b-e709-4733-a835-0ef44b5a12b6"
+        name="Class1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="ed719ab6-e33a-4c18-90d3-8394a2c8b4ab"
+        LastKnownName="automotive_repair_shop"
+        LastKnownLocation="Package_1323.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="72dd6089-f5e0-430a-940a-c34bdc5d0775"
+        LastKnownName="System"
+        LastKnownLocation="Package1_1323.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="dfc5d2dc-55f5-4e68-ab46-b50dfee9c565"
+        LastKnownName="DataManagment‎"
+        LastKnownLocation="Package6_1323.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="db91c3d8-7893-49e6-b43a-eed70f17b819"
+        name="DataBase"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="52f3ff6f-1078-436d-b1ab-2dd1c8169374"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c1af125c-3fbf-4e83-88da-0269a54fbd6c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="689d0d32-0d81-45ce-9ae2-4c8c99a9113a">
+                <propertyInstance
+                  Id="e8d8c4d5-1471-4f33-99b9-5bce12384b81"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="005dc76e-010a-4a5b-8d15-334fa11180c6">
+                <propertyInstance
+                  Id="943cabcb-51d2-40e5-94cd-a1ddbf8f5962"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a7611509-f31b-4bcc-8390-7ba2a8b448d9">
+                <propertyInstance
+                  Id="d5dba883-b3c8-4139-afc9-f388d51f88c3"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="74ace84e-af64-491c-af63-3cbe093ca3ed">
+                <propertyInstance
+                  Id="3e7ec8a1-c69e-4d20-bf23-b6fefd6a850a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a699d39d-7f9e-4b19-a2d2-09b96b2f375f">
+                <propertyInstance
+                  Id="69d2cb35-eb6b-4257-8fb6-2380ce9bf0d8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="734ab28b-52ef-4abd-adb5-edbe376cf2f3"
+            isDerived="false"
+            sourceEndRoleName="DataBase"
+            targetEndRoleName="task"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="f117b8ce-3f66-46a4-a5fd-5a192f6248e6"
+              LastKnownName="task"
+              LastKnownLocation="Package6_1323.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="303a5aae-7bb5-4b03-9e55-9569319850e1"
+                  name="DataBase"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ad78acfb-1313-4de3-a197-774050c3d10d"
+                  name="task"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="86609853-fcf3-4ebe-a16e-16d2b4b093e0"
+            isDerived="false"
+            sourceEndRoleName="DataBase"
+            targetEndRoleName="appontment"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="55cb8e58-2009-4b6a-a773-80052c1a1f7a"
+              LastKnownName="appontment"
+              LastKnownLocation="Package6_1323.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c7ca61de-ea2c-4b9c-a4db-f8e545ba350b"
+                  name="DataBase"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3cd2b21f-b0eb-48b0-9801-ed7859610662"
+                  name="appontment"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="08b6e907-163c-468b-916c-2559c3abd1cb"
+            isDerived="false"
+            sourceEndRoleName="DataBase"
+            targetEndRoleName="costumer"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="4ea88970-cdce-4873-91b7-0ad7a651294d"
+              LastKnownName="costumer"
+              LastKnownLocation="Package6_1323.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="62e926b6-b780-4d5f-a96b-9a94e41d871d"
+                  name="DataBase"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c04469f9-73cd-4d60-9110-203ae16da805"
+                  name="costumer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="a27c48d7-8d1b-49d8-89bb-034bc4afa4a8"
+            name="conn"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="22fd68e7-c485-4ea8-a43a-16a6613a94d7"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3Dconn"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="91b1fbc5-1997-4472-9fb5-dd56476442ba"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b316ea45-e005-4f8e-935c-c6dc2b05efa8">
+                    <propertyInstance
+                      Id="2ac4520a-7e85-4469-abc9-d5f61f882c5f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="248c4286-f229-48b4-a61a-3217ff0e930a">
+                    <propertyInstance
+                      Id="e1775223-083c-4c34-925d-ab4b3cd3a0f5"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9198b2fb-427c-49f5-81e4-d67f75c76ab0">
+                    <propertyInstance
+                      Id="9a2a38e7-c99e-4d50-8ee2-00c736bc7227"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45850d38-7ae3-4405-9434-b178185c5f19">
+                    <propertyInstance
+                      Id="6b79eb4e-7863-4842-ab3f-2e97dd085681"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="655ea2c6-59b4-48c0-8361-5ea5eca5cda5">
+                    <propertyInstance
+                      Id="6f83b49b-7c00-4025-b93b-1150a0dd0a36"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="71117b20-8365-4bea-aaf3-eb59edb762c4"
+                LastKnownName="SqlConnection"
+                LastKnownLocation="Package1_1325.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="95b4f76e-3d6f-4b73-bffd-00b45221cb90"
+            name="DataBase"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3360ad73-00d1-4468-9022-cf174f3cde84"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="43129c00-a13c-436d-98e1-68b2ba5d448f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8b876822-ceca-40ef-b95f-e6b9dfb2f4d8">
+                    <propertyInstance
+                      Id="4fc28d9b-6921-46fa-b5bd-d03723da4857"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="52bdbbf7-faeb-4414-9e63-3f375957610a">
+                    <propertyInstance
+                      Id="b0f8e440-20b7-49a8-aed8-236915cf8d9f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc82433a-0b2f-41b4-9b83-ae9ce2419749">
+                    <propertyInstance
+                      Id="aa26f48e-398a-4035-8025-b97149cf283b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b0e605c-e064-4a34-bd98-1bcf3236b36b">
+                    <propertyInstance
+                      Id="ea1ee01d-225f-4a48-8d75-fa7eca552786"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e00e3879-5bab-4761-a373-d27371fae0b8">
+                    <propertyInstance
+                      Id="266ae565-bd5e-4b4e-ad74-b36a6a1dd6fb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da417cf8-7d70-4bc2-abac-709f00eab58a">
+                    <propertyInstance
+                      Id="31a537e4-7f72-4236-8506-096ad3624470"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="cdb5d241-0ea1-41b2-8729-e4fda338733c"
+            name="addCostumer"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b180659a-9efc-4c66-a56e-29f1705fbadf"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3DaddCostumer OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dcostumer ParentType%3DDataManagment))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4c568e2e-04d6-45c0-b0a6-149ddde9a53c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e15e5ac1-ae3a-4b59-9bdc-fce4a57dc1f6">
+                    <propertyInstance
+                      Id="d26f3e40-0c36-4adf-ad18-242db30eba35"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6154ecf3-9430-44a4-aaac-a0954acc3786">
+                    <propertyInstance
+                      Id="d54d18a9-3566-4c27-8c8b-8a1d67110140"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3fa784b2-1ca4-4bd5-bd03-911024bb9109">
+                    <propertyInstance
+                      Id="9a321353-0cba-4c02-bdf0-25019508b88d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5ddf732-b35c-451d-96db-445ea0041568">
+                    <propertyInstance
+                      Id="93be405c-6806-4bdf-aa3d-551abe5618bb"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f53ac5d-6bdb-412b-a5b8-5f7fd7e17cf4">
+                    <propertyInstance
+                      Id="514eb96c-8ae0-48df-a573-f27699a448e7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2148183a-f15c-4bf8-ba65-7ab49379697d">
+                    <propertyInstance
+                      Id="31b817f7-4184-411a-a571-49d2e3c3fd00"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9a52017f-5bd9-4fa6-bce7-3a75cfe69d97"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="afd43ffe-2b50-4582-b499-98d5ce167b2e"
+                  name="costumer"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d3e82aaa-3c33-4df6-b95b-7518fa5f4d2b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3DaddCostumer OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dcostumer ParentType%3DDataManagment))]) ParameterIdentifier%3Dcostumer"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4ea88970-cdce-4873-91b7-0ad7a651294d"
+                      LastKnownName="costumer"
+                      LastKnownLocation="Package6_1323.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f05f44bf-7c96-4caa-b383-a66b1337f0f8"
+            name="checkCostumer"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8a2d59c0-e6f2-4ef4-979f-65ab65d75fd0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3DcheckCostumer OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ca0d3b6c-9743-4f78-be55-96f7430ee074"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb4bf92d-d288-42e5-9577-b5b32db820f0">
+                    <propertyInstance
+                      Id="b9342a43-7aa0-4ee6-82a3-dcf0643fee33"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5a6922fe-1779-4c06-8554-e1b50c41042a">
+                    <propertyInstance
+                      Id="7ce33004-88a0-4dd8-b0a0-3ad3214d1220"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dcca8683-73ab-4519-95ea-277ba9e649d9">
+                    <propertyInstance
+                      Id="173eba92-5c42-42cc-912e-e3db4886f61e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5115c8d1-064c-489b-a38d-db7e710efc18">
+                    <propertyInstance
+                      Id="c58a74e8-053c-4c15-9c0e-3d05dea76376"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6a12c63-c171-4a2e-a284-fd0d67820452">
+                    <propertyInstance
+                      Id="472833e3-b9bd-4969-9d35-fb63c5b7544d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="153637eb-25e9-42ec-b3fe-7cb530260188">
+                    <propertyInstance
+                      Id="f2fbf13c-78d6-44a5-a414-12bc6fe27864"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e78da96e-df0b-4906-bdbc-520676d27a3c"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="05aec2b0-65a5-4af6-b161-42383310ada3"
+                  name="email"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ae418c6b-262b-4441-be38-c36c966b888d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3DcheckCostumer OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Demail"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9f37de9d-0026-44ed-a8fa-760e3975f0c6"
+            name="getCostumerId"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7a780fb0-0ae5-4652-bcfd-10cc7d7d4a41"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3DgetCostumerId"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="55875835-6c18-4568-9bb1-f77ae00c92a0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9224efb6-b751-4f43-b453-36271a4f4934">
+                    <propertyInstance
+                      Id="709d9e29-0b5f-4ed9-b47f-751676ba54ca"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a82a7294-6e0c-47b2-b653-f4eaaa415653">
+                    <propertyInstance
+                      Id="00d88826-16bf-4f08-922f-847698a0dc11"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b75708b-ab5c-48cf-b333-9f827d3d371b">
+                    <propertyInstance
+                      Id="f7b469e8-a832-4637-8f43-cdbe62daae38"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ff5db3f1-eaf3-48e9-b9ee-791848a7fe98">
+                    <propertyInstance
+                      Id="7f5f51fe-6619-42c4-92b6-fdc1fb43dae9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a789bf88-2393-4e09-bf58-30001a2620bf">
+                    <propertyInstance
+                      Id="e38fae33-e128-4228-9c85-406886ffa328"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27fac8bb-b38b-4d5d-9a3f-04f117a66b7c">
+                    <propertyInstance
+                      Id="f072eb1a-bd3b-42c4-9cd2-de25904b82a0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5c3e3f6b-6a45-4c05-aa70-42614fe7d64d"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2e33743b-762e-47ad-a1d0-7071767f65aa"
+            name="getCostumers"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="bce38395-68cd-47d0-b801-f94bae3fd47d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3DgetCostumers"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="eef2e017-f082-44a0-990d-5fb982c85326"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0196d92-381d-40e9-a90a-22f96a88eac0">
+                    <propertyInstance
+                      Id="efa08adc-f5be-411f-a265-8cc60ac7ab4a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="283e080f-2bcc-45f9-86e1-6ed83ff52868">
+                    <propertyInstance
+                      Id="c3b08c46-fb74-4517-8881-c0739f33aa35"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d2a536a0-cab3-41f2-bc68-8af4990b7661">
+                    <propertyInstance
+                      Id="1a14840c-6d91-498e-94c5-61b2804734df"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39bf68a1-a618-4261-b237-316c4aa7f07b">
+                    <propertyInstance
+                      Id="a26e92d3-598a-4695-89fe-dd73ceb12baa"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="edecb7cc-36a0-4173-9509-3e269a83371b">
+                    <propertyInstance
+                      Id="95239eca-6a4f-405e-a27c-49a8fd01f052"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3815e49-641d-4d97-8b66-a746e35c950a">
+                    <propertyInstance
+                      Id="8a8f9983-58ac-41c6-8f05-c0fe9f6f90a1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2b978708-0042-4218-ad5d-673f6c6ae5fc"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="1daca2c2-ba34-485d-9957-4128801be69c"
+                      LastKnownName="List&lt;DataManagment‎‎.costumer‎&gt;"
+                      LastKnownLocation="Package8_1323.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="61d326b5-b34c-4904-92a0-70eb92163ce8"
+            name="updateProfile"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="39f9a72b-8555-4d18-aa31-ca84de077c69"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3DupdateProfile OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dcostumer ParentType%3DDataManagment))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c57865d1-f3f6-43f0-a50a-80627d2319e7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="26cbbbc1-071e-49da-b730-acd80995e676">
+                    <propertyInstance
+                      Id="49aa7a37-754d-4c22-9ff6-d790b50b3f94"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b5b8599-99b5-4ada-b9c8-428fe9e95577">
+                    <propertyInstance
+                      Id="62b34416-aef5-47db-b460-048e80ddd57f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="840b8408-c403-4578-a579-db438e8de714">
+                    <propertyInstance
+                      Id="ab43657a-5aa2-4704-891c-4e350ea3ad12"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c472ddd-0433-4bab-b593-4c12242fd4ba">
+                    <propertyInstance
+                      Id="f5cd6884-86e0-44f7-99a4-f136c6b61d5f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c6cb0c2-da6e-4f7d-9d24-e38569b873e5">
+                    <propertyInstance
+                      Id="8d700235-9cf7-4518-85f9-d97c57f4c0d5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b4c8d0c-5ca7-49a8-befc-b0ad9c38e913">
+                    <propertyInstance
+                      Id="9eaf39a9-0530-47b2-bf28-daf3acec6f9a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="53272b59-75f1-43c7-b736-a0686205c611"
+                  name="cost"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4a4cb92c-94be-4b75-858b-ad6b6e99320d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3DupdateProfile OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dcostumer ParentType%3DDataManagment))]) ParameterIdentifier%3Dcost"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4ea88970-cdce-4873-91b7-0ad7a651294d"
+                      LastKnownName="costumer"
+                      LastKnownLocation="Package6_1323.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="257c233a-15b9-43d8-bfc0-254310f457dc"
+            name="updatePass"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="32273b01-cf7e-4c99-86e3-6cb297af4cab"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3DupdatePass OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dcostumer ParentType%3DDataManagment))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e2115fb8-3d57-43fd-9078-2caaa90abe6e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc23a74a-e29c-467c-969d-e370a6856e0b">
+                    <propertyInstance
+                      Id="26cd2391-5b4a-4548-b7a9-d11d399c6164"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d5323bd-0397-4371-ae15-9378429d4b09">
+                    <propertyInstance
+                      Id="97eed387-89e3-40f7-8119-3670b74707c2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f235a93-7f98-4d8c-a048-0532981436f9">
+                    <propertyInstance
+                      Id="3f050afd-2284-4200-88c3-7b92d8717f6e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="69052fd8-dec4-436f-baa2-1d9d463711f8">
+                    <propertyInstance
+                      Id="e762ffee-c072-4e12-a6f0-70bb5d0bc668"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd064383-8416-4113-8397-b00a14e31e3e">
+                    <propertyInstance
+                      Id="485bd18d-a1c0-4def-a13d-3dfa93f2a773"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c0446af-c016-4134-897a-1d1ab5ded0cd">
+                    <propertyInstance
+                      Id="9296eaf8-e148-4756-89a9-c3bb08849c86"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4d38fdd6-3df0-4a01-b3b8-108db8269182"
+                  name="cost"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d200e005-3840-492d-a5a6-4e7e2023ce05"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3DupdatePass OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dcostumer ParentType%3DDataManagment))]) ParameterIdentifier%3Dcost"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4ea88970-cdce-4873-91b7-0ad7a651294d"
+                      LastKnownName="costumer"
+                      LastKnownLocation="Package6_1323.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f91b0815-2503-4b35-9300-b6835b978e28"
+            name="auth"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a650d86b-ab28-4b69-a2cb-73db5d7ccbc9"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3Dauth OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="57ab3049-f234-47fa-8961-3bb71093d85a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ab7a79b-931f-4b0a-84e1-33ecf90c40a5">
+                    <propertyInstance
+                      Id="fad1e4b7-26b4-4349-bc61-10b803fd3371"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f23d7b4-82fb-42b0-9c8f-8cbb149e02ad">
+                    <propertyInstance
+                      Id="b9818527-d766-4a2a-934e-b2cdd6c18be3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b04f2289-6405-4126-b460-38c450dbbddb">
+                    <propertyInstance
+                      Id="447d679a-c660-459d-ba80-31c9692a8022"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a823f7b-d01d-479b-b787-50c67a715eac">
+                    <propertyInstance
+                      Id="dedea631-6c9e-492e-ab5b-20d8f7cd4e72"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a306e4ad-8d3d-412d-a694-4516508f3f31">
+                    <propertyInstance
+                      Id="7588b7f0-2555-4e53-8502-294bcc9c39df"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a8b42c09-e89f-4879-ae3a-a693e693d2b6">
+                    <propertyInstance
+                      Id="a9e5757d-55a3-4b92-93fb-9fefc6db62a1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="555781b6-bee1-478f-a280-08f5f4f5e7ba"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4ea88970-cdce-4873-91b7-0ad7a651294d"
+                      LastKnownName="costumer"
+                      LastKnownLocation="Package6_1323.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cf604ca8-9562-421a-89d4-415aef7d75a5"
+                  name="email"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b9bb29ca-135a-42de-804b-dd941b31001d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3Dauth OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Demail"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="894c9b43-ff7d-4353-b8d8-a27e431ad4e8"
+                  name="password"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="2c6401a3-d70d-40f9-a8d3-742ba7a9b667"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3Dauth OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dpassword"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a0cb8a5b-1a86-4fac-a6fc-642806253fb9"
+            name="searchCostumer"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="da64cb6c-6060-466e-8767-95b25194640c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3DsearchCostumer OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b4a66b1d-4fad-4136-8e2d-4ccd40a484f9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="595e4029-af0a-41be-9b3a-48764de6c72f">
+                    <propertyInstance
+                      Id="f17809d7-c1f9-447a-8df7-554f9a72ca50"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be049ff6-b4de-4573-b5b0-401754c1e895">
+                    <propertyInstance
+                      Id="86cf4a5c-6287-4dd2-bb0c-47420603caab"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72c427e5-a296-4bb3-a410-4043b0be2068">
+                    <propertyInstance
+                      Id="45d96422-7c7f-4c61-98fd-c4ced1f93511"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4fb7c28e-0bce-4437-91cb-0dc16da6edd3">
+                    <propertyInstance
+                      Id="b9a0d95d-e9e0-4351-b086-cde18de4b792"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5984a52-7d95-46dc-b3df-054b42709d54">
+                    <propertyInstance
+                      Id="3b28e915-43e8-4bcf-b36f-8615390dee8f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a90699f-24b8-41a3-bb2d-95ac742dd0fc">
+                    <propertyInstance
+                      Id="76d1047b-eff8-4d9d-99a0-8802da343cf7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="540b90dd-40ea-4795-be3f-608f8f18718f"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4ea88970-cdce-4873-91b7-0ad7a651294d"
+                      LastKnownName="costumer"
+                      LastKnownLocation="Package6_1323.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6845bbd3-5b5e-4ffe-afdf-8e699396fa55"
+                  name="searchVal"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="48ec5d64-f9f3-44ed-981a-7609ed60dba2"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3DsearchCostumer OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DsearchVal"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e5d0a237-4540-4d6a-9cfb-08d821a332a3"
+            name="newAppointment"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1ec883d3-7281-4a50-90d5-9ff7098cc3fd"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3DnewAppointment OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dappontment ParentType%3DDataManagment))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8fb04ef7-1b42-46d0-9c0c-c5a440349fb1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dd9985d5-af23-430e-a3a4-5d5289211334">
+                    <propertyInstance
+                      Id="eea26871-bf5c-4507-9345-7f7bf3a0ddea"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e742520a-0aee-4b0b-afb9-81cc14373fe7">
+                    <propertyInstance
+                      Id="934ed1dd-e587-499a-956f-1a0bb14d185d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93a1edc5-52bd-4fbd-a088-2fac4663c820">
+                    <propertyInstance
+                      Id="2b375b53-57f8-4ed3-bf23-fb975e5d0f4d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce0fc45a-3860-42b9-9099-dfe8f17fd7b1">
+                    <propertyInstance
+                      Id="57fba9c6-2d17-4be2-8b7e-80df628e1db1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66d9bc5c-532c-4579-8147-87e98959d08e">
+                    <propertyInstance
+                      Id="9334b29f-ccee-4ebb-b992-f21fcbed8f29"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45ef67b8-e127-4e7a-91d4-fd39cdfa0055">
+                    <propertyInstance
+                      Id="f073ef5e-fd81-4504-84f1-b5f73ccb3596"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="fab12b53-07b0-42ad-80f8-4bf2a67f785b"
+                  name="app"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a2779832-fa91-49cf-9c96-34b3e5628f0a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3DnewAppointment OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dappontment ParentType%3DDataManagment))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3Dapp"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="55cb8e58-2009-4b6a-a773-80052c1a1f7a"
+                      LastKnownName="appontment"
+                      LastKnownLocation="Package6_1323.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8c3d75e4-12de-4455-b6cb-933ff5d596a2"
+                  name="task"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="26da3888-2706-4e9c-9367-f48a31fa11f2"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3DnewAppointment OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dappontment ParentType%3DDataManagment))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3Dtask"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="436146b7-0625-4275-bffb-57005f9c1741"
+                      LastKnownName="List&lt;String‎&gt;"
+                      LastKnownLocation="Package8_1323.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="8f2724b3-b2be-4967-9d60-91872fc80808"
+            name="getAppointmentDate"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1198eef3-efda-4e70-b2c2-29a069fe6af9"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3DgetAppointmentDate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDateTime)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ef2686e8-5cbe-4ea9-9b76-2fcc544612b2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ccef94ef-0f70-4ef8-a591-0bc097d5087b">
+                    <propertyInstance
+                      Id="1db32f9c-70b5-42b6-9b17-407d856e17cd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="52afdd11-59e4-47c0-838c-f57cd342b187">
+                    <propertyInstance
+                      Id="d253c57c-4ea8-4755-b8f6-f31a869f34a3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da24d252-c190-491d-9970-a56c5b595a1d">
+                    <propertyInstance
+                      Id="1e44844d-9e5a-49c7-95bd-d327a78980f4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c69868e-3589-4215-9ea4-5091410dd387">
+                    <propertyInstance
+                      Id="ff0dfe52-bbb2-4570-87a2-ba783bb4bdb2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e08e032-c3d9-4fb1-9f11-18b8bc336e2b">
+                    <propertyInstance
+                      Id="254f9373-9506-46a2-b5e4-5754b5b1b265"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="275f0b0a-9337-4c20-bfe6-ee124063bdf2">
+                    <propertyInstance
+                      Id="355a33ca-2b51-4faa-a5d5-1d9b8d1096f7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="62c1dd96-3654-482d-baff-b5e414830e71"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ca369b53-f17e-46a0-816f-951158916ac2"
+                  name="costumerId"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6b96975f-72db-4af9-a0bb-15ad63808cdc"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3DgetAppointmentDate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDateTime)]) ParameterIdentifier%3DcostumerId"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9a9891be-966c-47dd-a742-0cf0efef42c4"
+                  name="date"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a9dae5bb-7735-4b4d-94ae-ed010e40e51f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3DgetAppointmentDate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDateTime)]) ParameterIdentifier%3Ddate"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="92471a22-1c24-4317-b78c-c05a1fb1f68f"
+                      LastKnownName="DateTime"
+                      LastKnownLocation="Package1_1323.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="cc54e2cf-0818-401a-a074-7e18171b7564"
+            name="getupcoming"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3d71c127-7672-459c-b65e-2360ca6f0ac6"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3Dgetupcoming OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1fb01368-36f8-46b7-85ee-9b523a26bec8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="213d81f2-4d86-44f1-b6a6-8683421f8c5c">
+                    <propertyInstance
+                      Id="3d84f5c8-282e-415c-80af-fffc9b49a306"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="066fb44e-4375-4029-b142-aa1e95328b71">
+                    <propertyInstance
+                      Id="d39fad04-5f4f-4852-865b-e6d05f2b9a43"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce746ee9-75c8-42c6-8ef5-e16b09c2c515">
+                    <propertyInstance
+                      Id="bfdc5386-a009-455e-ab5b-4c6ab7c6a480"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="594615ff-a98a-4c32-8c24-41258530f913">
+                    <propertyInstance
+                      Id="734bc8fc-0f1b-4a3e-8e3d-3512a92a9405"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="500d9bc7-985d-4128-8106-7f78f9dab200">
+                    <propertyInstance
+                      Id="d96c59fc-fc1c-4452-9218-d7a7c0a02994"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9dbdf5b4-4ad3-4dc0-895b-ac325dc4c2e3">
+                    <propertyInstance
+                      Id="34a50d8e-5c47-4ad2-b3a0-31cefa435ac1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8f36bada-5aa8-4615-ab30-1d31f610a703"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="55cb8e58-2009-4b6a-a773-80052c1a1f7a"
+                      LastKnownName="appontment"
+                      LastKnownLocation="Package6_1323.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="33b44ed3-bce1-4c50-9463-e17c69270220"
+                  name="costumerId"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="291dd891-2083-46f1-8e48-762875d67aa3"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3Dgetupcoming OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DcostumerId"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d9854e47-cd81-4db2-b2b3-ec1ebd7a7859"
+            name="getApps"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c6296747-454d-4480-bde1-ea3543dd1842"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3DgetApps"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="974e4db6-2dcd-4def-86ad-bde3c8265ac8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5750bb14-6a3c-4a87-9047-1270464b5586">
+                    <propertyInstance
+                      Id="d5cca645-736b-4de9-8b19-c95f77405145"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2239a004-ae84-458c-86a7-0c886fb5a280">
+                    <propertyInstance
+                      Id="47b0dfda-8a4e-4cbe-bb72-a53ab7e7a6e1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bfc7bd93-64f3-4cea-8a17-e3d34ef7dc85">
+                    <propertyInstance
+                      Id="b7b71dc9-59e1-4119-b55d-0de8bd0508c8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b3a81ca9-9a9b-4243-a0d9-af9e1ceba704">
+                    <propertyInstance
+                      Id="c9bedead-6603-435d-bfa0-56d077e95cb0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="086cde72-bb11-4f98-bed8-1f1d78310b48">
+                    <propertyInstance
+                      Id="408715fa-6b09-45e5-96ee-2b609f7337d7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="94f932e4-02ef-401f-8f64-ec09e98c28e9">
+                    <propertyInstance
+                      Id="2ba885a5-a16c-4104-84fa-ea0c7367e3ab"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0ff2f65a-61f1-4d53-aca8-ed4dd999e18c"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="79357c5d-82c6-40ba-ab87-21a09add242d"
+                      LastKnownName="List&lt;DataManagment‎‎.appontment‎&gt;"
+                      LastKnownLocation="Package8_1323.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e1175f8f-608b-4578-8006-38ad27f1ccaf"
+            name="getAppsbyID"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f0479e9d-401f-47da-b261-63893d33f352"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3DgetAppsbyID OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0bfb507c-c7ca-47a4-a08b-64e3d73fe3b4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d015c22-014f-45f3-876d-0b85d47d57ac">
+                    <propertyInstance
+                      Id="23603914-3cb9-47bb-8876-079112a15e78"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58092434-3e62-4851-bc86-2fbe87afc095">
+                    <propertyInstance
+                      Id="00f928e9-376c-4f5b-88c5-6033540958a4"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c4915eb-a158-46c3-99a7-778725dff469">
+                    <propertyInstance
+                      Id="8d113244-496e-4851-bd9a-7676a888d832"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9bb389c3-ffec-47cf-9175-2a2730bc5b79">
+                    <propertyInstance
+                      Id="e8781b32-f87d-4716-b26f-88b27858689c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93ba0358-bafd-4fac-b6db-e3f55a7b5e5b">
+                    <propertyInstance
+                      Id="4312cf23-c41a-4762-a347-27685fb6eaf0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b837e88f-fb73-4935-9d84-66527496ec0f">
+                    <propertyInstance
+                      Id="d7cc23f0-96a1-44be-8f9f-4546f82be030"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="16886656-390a-4778-b584-8fbf0bdfadd5"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="79357c5d-82c6-40ba-ab87-21a09add242d"
+                      LastKnownName="List&lt;DataManagment‎‎.appontment‎&gt;"
+                      LastKnownLocation="Package8_1323.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="94220680-35ac-4b6c-835f-f266d95f6e99"
+                  name="ID"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="016a7910-60a3-4852-aef1-d9529721df29"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3DgetAppsbyID OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DID"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f515ac89-1dcc-4353-9aae-1fddfbaafd41"
+            name="getTaskList"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="364f5238-c43a-43be-b754-bde2e846c911"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3DgetTaskList OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="92e1aa13-7fa4-4fea-9cf1-bacda8c3338a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="815aa004-2d2d-4930-9aa7-181271dcba03">
+                    <propertyInstance
+                      Id="c0d4eb6f-ab5c-4d0e-a8b3-6caaf7ec6864"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7cdd8e78-191d-4404-8efd-c2ac1910fe7a">
+                    <propertyInstance
+                      Id="fd5a14bf-88d2-46e0-861b-4cd808a6406e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4a204a4-841a-45ab-a931-cdcd695550ac">
+                    <propertyInstance
+                      Id="25fda1cc-f40e-4fba-8d6a-2017c2ce35ce"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5edef9e-ffc6-4905-88ee-afd976140d72">
+                    <propertyInstance
+                      Id="d41a9f0d-c33f-4b0d-a80a-5a3574e4d335"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6a36c0c-acbc-4017-915d-98f5a98ddb69">
+                    <propertyInstance
+                      Id="07c921cf-3acf-4879-8980-f99fba021f32"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a9ae95cf-5731-402a-b4e6-e5e279285bcd">
+                    <propertyInstance
+                      Id="f698d72c-1af4-46a1-84f8-04e52a8a01ec"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c1ea2aaf-0ff3-42d0-8c44-5e6fa34a640a"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="436146b7-0625-4275-bffb-57005f9c1741"
+                      LastKnownName="List&lt;String‎&gt;"
+                      LastKnownLocation="Package8_1323.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="06f77f55-e5a9-4c62-8c90-88c1c5de3e5e"
+                  name="appId"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1b464571-d64b-4b57-a7f1-8cee907864d5"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3DgetTaskList OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DappId"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7da2a81e-b0c1-4c63-b0e0-5732046e37e0"
+            name="getTasks"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="22dfff0f-b86e-4766-8093-825d219aba75"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3DgetTasks OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a752128b-dbbf-48e3-87fc-ea7262a3f9ac"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ed6eaea-4214-416f-acbd-d6d68344f1ea">
+                    <propertyInstance
+                      Id="72ef7c31-3c84-485c-a8b6-43508555d66d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13211d6f-da36-4c5f-9c1a-82eef15f2433">
+                    <propertyInstance
+                      Id="b2cd0ed9-612e-4401-a904-31f172fcb17e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="116e515f-19e1-43ba-b7ae-3896230c94e5">
+                    <propertyInstance
+                      Id="f41d62c2-bacc-4fc7-a6cb-14859f1ff52b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21fdc332-f79f-4c7c-8717-c489a64f7881">
+                    <propertyInstance
+                      Id="f4cca43b-f44f-42bd-8939-8a0574b077b6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="89433f40-18ce-4ebd-b092-5c368f376f14">
+                    <propertyInstance
+                      Id="da0421a1-8bc6-4c59-9e18-c4728c005ece"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d803fa33-f218-46f9-a814-657d92b28ef0">
+                    <propertyInstance
+                      Id="4e199449-ae4b-43c6-a8a2-abeaede18adb"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="048410f8-637a-4373-8fe9-08986fc29243"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="0ab3fa97-5321-438a-ba87-35dc3da7d9f3"
+                      LastKnownName="List&lt;DataManagment‎‎.task‎&gt;"
+                      LastKnownLocation="Package8_1323.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e709c70e-4be6-47b3-a17e-9b5e3ba717ce"
+                  name="appID"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b1b34201-6800-4bf2-8d9b-58008d8fcf18"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3DgetTasks OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DappID"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e0964634-ca83-476a-8d96-971466db6d23"
+            name="updateTask"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e1a5f9a6-c37e-48c9-bf50-64688a45246b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3DupdateTask OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dtask ParentType%3DDataManagment))]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c3c2ac8f-ca16-40a8-af1b-2f3423986482"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31043e35-e838-488d-abcf-2d4da8ce76ed">
+                    <propertyInstance
+                      Id="b5dae39d-1c0a-4305-af07-3070ea9593af"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f5d6142-7b54-481c-ab82-44f2292edaac">
+                    <propertyInstance
+                      Id="10f4ab0b-5d81-4f8d-8f64-0f57c5d7569f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6cce81a0-9f66-4328-9625-e3b68c078d15">
+                    <propertyInstance
+                      Id="142b7cc3-174c-4cde-b0b6-48faae7d401c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72e8a9fb-607d-4ce1-a662-b74d6168614e">
+                    <propertyInstance
+                      Id="95650df6-ff99-4723-ad60-92c27a6eb671"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e68ed760-cb15-480e-81a0-4621c12014c6">
+                    <propertyInstance
+                      Id="4892c066-5a7f-40b5-9be3-676132625b08"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d03a6045-6d59-4075-b1c7-a976887de7c8">
+                    <propertyInstance
+                      Id="e07fcdf0-c76b-4c28-b4f3-589507712dd9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="722dc066-1936-4d09-b89a-109e9407f729"
+                  name="tasks"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5e3d11f4-0fee-461b-90c7-ae2227b1ac8e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3DDataBase Member%3D(Name%3DupdateTask OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dtask ParentType%3DDataManagment))]))]) ParameterIdentifier%3Dtasks"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="0ab3fa97-5321-438a-ba87-35dc3da7d9f3"
+                      LastKnownName="List&lt;DataManagment‎‎.task‎&gt;"
+                      LastKnownLocation="Package8_1323.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

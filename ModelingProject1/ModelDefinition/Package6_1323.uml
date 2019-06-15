@@ -1,0 +1,1790 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="dfc5d2dc-55f5-4e68-ab46-b50dfee9c565"
+  name="DataManagment‎"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="e8531f2e-d77f-402b-a58d-355df8795ed1"
+      handle="viewcode://./CodeSchema_Namespace?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Namespace%3DDataManagment Type%3D(Name%3Dappontment ParentType%3DDataManagment)"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="8429e275-1619-4faa-b9e3-7d4c83ca9b8d">
+      <profileInstance
+        Id="6432e28c-b9ed-45d9-985e-f9ca970ca63c"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="4ea88970-cdce-4873-91b7-0ad7a651294d"
+        name="costumer"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="9a041bb2-a5ab-494b-9d57-324c76084be1"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dcostumer ParentType%3DDataManagment)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="570f7903-3c21-43b8-aa2b-fc974ecea144"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="944a61ea-4936-4730-bdc9-8a65a22c9a08">
+                <propertyInstance
+                  Id="024321d8-6407-4ee0-a963-6bbe653be925"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="999c9484-bab8-468f-b97f-93ba4809c341">
+                <propertyInstance
+                  Id="ae2b6fb9-9c07-4270-9c5e-b7536e2284f2"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="751bb74e-1ff5-4087-a1ee-f28b4fd279ae">
+                <propertyInstance
+                  Id="d3e9532f-1cfe-45db-906d-3aa508c833f3"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7d09cc1a-f1db-4d6b-9129-ad0c57d63d61">
+                <propertyInstance
+                  Id="28eeb8e3-ba6e-43c2-8d7c-cdf65022cba1"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="41cb53a7-9d08-49a6-9dea-7e38ca45e086">
+                <propertyInstance
+                  Id="d19e64ea-ea32-4059-a63f-d66b25ca0316"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="8418e16e-e7d3-4838-b045-d5ba9ec3553f"
+            name="ID"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="099b6dcf-0ea6-4d44-b735-0b8b668e52d0"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dcostumer ParentType%3DDataManagment) Member%3DID"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="27bf655c-437f-4b5f-a3cc-c642879dbdc5"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b27ae13a-3c0d-467c-9176-80f723986cf8">
+                    <propertyInstance
+                      Id="0bdda4b5-ea07-4a2b-a6ad-d3bcbb0afa91"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d53b44b6-9570-4950-8b8a-da480552363a">
+                    <propertyInstance
+                      Id="1ce94752-ddd3-4ed2-942b-b258173dbed2"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a92a9110-8591-4686-86e6-e0cd52f94a4c">
+                    <propertyInstance
+                      Id="03dfe304-4317-4b01-ab7e-f1f5aebe0ed9"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38dd1132-b7a8-482f-87c0-6571d5d37510">
+                    <propertyInstance
+                      Id="d88b61d9-acc3-43a8-8008-aa5b653f7e71"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed656b80-9f0d-45ec-bbd9-67ac8c173166">
+                    <propertyInstance
+                      Id="4151caf0-d721-4d9c-bf49-c3bea6b084ed"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="14b3a609-00e1-4344-af48-6ebb67a7238e"
+            name="age"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="24ea5f88-9eba-4f83-8f2b-491a2d248aba"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dcostumer ParentType%3DDataManagment) Member%3Dage"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2d243fe0-29c0-4604-b6fa-f9581b1a0d39"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d63d794c-6e1e-41c2-9dfe-2272d69ef80f">
+                    <propertyInstance
+                      Id="9604a5ac-24af-4eea-9127-e0b5a77c8237"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9a1d9352-3e48-46d3-9b87-ac9eb1fc96ea">
+                    <propertyInstance
+                      Id="5a783d71-c10a-49f2-917c-f6fceec8b17b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="87eb45c4-8429-48ec-8b91-ff8bc6819a3d">
+                    <propertyInstance
+                      Id="857e76fc-b915-4464-baea-f0d9f12d809b"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0b816fe-6412-4431-83d9-f8ae58d5f58d">
+                    <propertyInstance
+                      Id="83a4c128-d2ca-4388-ab62-b1844d4885be"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f3025f8-4878-4383-951d-52936c261d6a">
+                    <propertyInstance
+                      Id="abac14be-a4ae-4dd3-9db3-5a8173df0a74"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1c325ce8-52ef-4273-a17b-a0be6e052017"
+            name="firstName"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c4a0891e-8a4e-42c4-bd29-8c4bf0f68ee6"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dcostumer ParentType%3DDataManagment) Member%3DfirstName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="90cb489f-8b06-4e85-b870-ae0b2e4fd3a1"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6e9106d-cd98-4cfb-90ef-a14670f3ad9d">
+                    <propertyInstance
+                      Id="2c9d4fcc-6f92-441f-ad26-42280e539dc8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2aa9801b-f4ea-4ec1-9839-88b5ced3f713">
+                    <propertyInstance
+                      Id="c3c54bbf-f49a-4979-8f96-37eff847f74f"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="37529108-1286-4456-abd4-5057eb05e28d">
+                    <propertyInstance
+                      Id="61932fb9-77c5-463c-8dc9-e9fd611f18a8"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd96b2a3-fe6d-4ba5-80b2-1aa432adeb83">
+                    <propertyInstance
+                      Id="d2617dba-0a34-48b2-8ba3-63700cd3be5e"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ef8e29b-80a8-4f64-8763-b2812da7bebc">
+                    <propertyInstance
+                      Id="847675c2-699d-4739-b761-0bc07f3f439b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b4859a8d-5af1-4d0d-a364-b0ca34a2dd10"
+            name="lastName"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="60708fcc-d905-405c-b3d0-57217d66a8d8"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dcostumer ParentType%3DDataManagment) Member%3DlastName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d1bcf8d8-489b-4859-aa9b-b3ad54b1c682"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1dd90086-c41b-4dd7-8d2a-30470a9d6612">
+                    <propertyInstance
+                      Id="65c2a538-9c18-4673-b0c0-53bdef79eab5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b603eaab-8415-4132-97e3-8833ada8cd20">
+                    <propertyInstance
+                      Id="faa1004b-f732-4f02-a556-95774108e7dd"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b108898-dca5-4acb-8284-1e76afc4e38c">
+                    <propertyInstance
+                      Id="76abf748-859e-435e-8039-fcd608dad9f6"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="32e64dde-139e-4b82-9cf2-64ede42b0437">
+                    <propertyInstance
+                      Id="ddbc6aad-dfc9-4e24-bdab-245b022d770c"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cbfd2752-52b3-488b-bde1-aec4070815ea">
+                    <propertyInstance
+                      Id="6b72411e-498e-47af-b2b3-fb3da61b8849"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d821a9e8-0bca-4077-97bf-e7811855c9f0"
+            name="email"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="bf290e14-6b16-484f-9f91-5ce955a63131"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dcostumer ParentType%3DDataManagment) Member%3Demail"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5384a73c-b5f1-4657-95f1-73f02516cb23"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d31af4a-d812-40c1-854d-a35a18166023">
+                    <propertyInstance
+                      Id="a00420e8-f02a-4222-9300-f1926f86a17c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="636f7b18-d165-490a-8cae-d42774f576d6">
+                    <propertyInstance
+                      Id="2907f3af-b4c5-4eef-a476-0a4f7a48a87b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60720494-dbd7-4589-88db-5f7b1423ddc9">
+                    <propertyInstance
+                      Id="b773504d-2bd0-4cb1-8e1a-f7e52d70ddcf"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9fc0a8cb-6c3b-483a-9b98-2f08ff5cde16">
+                    <propertyInstance
+                      Id="ba781e0c-a477-4ed6-bfbe-a484d398f177"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1297cac7-831d-4453-ae8a-a23b351833a3">
+                    <propertyInstance
+                      Id="2ca04286-23da-488a-a1f7-ca912af14aa6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="45159e18-26c7-4e59-8c2f-9b9c6bf29741"
+            name="gender"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="90190d84-2385-4bc6-b815-e0caf939baca"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dcostumer ParentType%3DDataManagment) Member%3Dgender"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e60f23ab-521c-4d57-85e1-45ad9f29d862"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f4ca1ae-8fcc-4643-8f4c-a8c338b96567">
+                    <propertyInstance
+                      Id="8137cffd-f364-49c0-afd8-6a2e79b6d023"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46274785-0aec-4144-aaa7-a7d808ab923d">
+                    <propertyInstance
+                      Id="b1f114d7-0815-4f82-a532-a9f99e4db17c"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1807733-45a5-49ae-bb1f-b5c677dd29be">
+                    <propertyInstance
+                      Id="7cf976ea-998e-4a86-b97a-be4a6b958e57"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b93aa4a-b90c-4725-ac8b-189035b8f3cf">
+                    <propertyInstance
+                      Id="526e50d5-f67f-480a-9c36-0608000cf971"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9731541-1238-4bc3-b4bb-c41eb5f98b23">
+                    <propertyInstance
+                      Id="1dd1f87a-2142-4a33-af4e-95e6845e9d3c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="31128b57-e1a8-4ae4-98d7-f8c22ce6140c"
+            name="contactNumber"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="3c3fd26b-3250-4d4b-8909-1be487a33292"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dcostumer ParentType%3DDataManagment) Member%3DcontactNumber"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3edda55f-5a63-4879-aef9-0f5b30c788f2"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d32f1b61-bef1-4c41-8cfa-fd0560446d41">
+                    <propertyInstance
+                      Id="c3d3da54-c767-44b9-a102-5738ad42dede"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c65cda5-330d-49f1-867e-7649187b473f">
+                    <propertyInstance
+                      Id="f2a10489-015c-4781-b8ec-8ba6d56181a6"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c5e93a2-3bd1-4a37-a072-6161d7fc4114">
+                    <propertyInstance
+                      Id="a3f895eb-b571-40fd-9026-b24579c38a40"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="08cabd18-d687-4c1e-813a-d6da13d805a0">
+                    <propertyInstance
+                      Id="09a0acf2-637f-49f1-a5df-72338c5a343b"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="acb3b421-ff2a-4fd5-85be-c1f5bb35f878">
+                    <propertyInstance
+                      Id="525ab2d0-e3e9-4e63-afa6-564f19af1856"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="543b295f-e90b-4d99-a3d4-48d306199e13"
+            name="address"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="1e3fb741-cc54-407c-8173-f2dadb693eff"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dcostumer ParentType%3DDataManagment) Member%3Daddress"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="db571fe1-a5a4-4d45-af98-4bb6f0536e3c"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95c76d9c-d20e-4c17-a0e4-b94b180b02c7">
+                    <propertyInstance
+                      Id="f1ca324d-85ea-470a-aaa9-aeff9b37f7c9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45ac8d32-efe9-4236-8626-b4c5b0903a8f">
+                    <propertyInstance
+                      Id="5bc6bbc5-c7d9-47c4-bc85-a23b5ec0c3b4"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5a2b3d77-5cb8-4f7d-a870-8d4b8ec1b4e7">
+                    <propertyInstance
+                      Id="d817a45f-c818-47c5-b130-beccc3c1f432"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa94b236-71f3-4d1d-8341-9f846d77d384">
+                    <propertyInstance
+                      Id="1713f6c1-3d98-4fea-af57-87bb968b38c0"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e02766e5-bc2d-44fb-9c7b-0ec06961164c">
+                    <propertyInstance
+                      Id="df3565a3-0bec-449c-8a21-b6bf8f4ac185"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="f55ad2ca-ffc3-4d7e-9452-7a1cd2384d7a"
+            name="carModel"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="17eb8fa5-8ef9-431b-9624-1babe1e1d951"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dcostumer ParentType%3DDataManagment) Member%3DcarModel"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e7e5fed6-f526-4ffe-897a-b103aaff14b0"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92a505eb-117e-4761-b77f-e6c82be4aafe">
+                    <propertyInstance
+                      Id="47e6f1b8-f2c7-4fd3-b8de-57c8a0b1a031"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12cd1723-2d10-4fb1-a5cf-ca1ad8909fb0">
+                    <propertyInstance
+                      Id="d3858e7f-f3aa-4fa6-be6a-4815f27f7f17"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="865a3193-604d-4a92-a8a6-010258ffff95">
+                    <propertyInstance
+                      Id="27a0d78d-9f09-4604-bfbd-1bf73d5c58d8"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d54f604e-998b-4ffb-964c-edc89f2a1160">
+                    <propertyInstance
+                      Id="008facf7-f122-4b92-9772-8862794f7162"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35774910-4c86-4713-97a8-cf1ed30428aa">
+                    <propertyInstance
+                      Id="7257ac03-2445-4e0e-b284-5622f1503347"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="041fae9c-cb4a-4ff4-8479-f8d92bd7ff4c"
+            name="carColor"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="fb24b19b-b142-4ffe-95a3-3926edcf638d"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dcostumer ParentType%3DDataManagment) Member%3DcarColor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="925ba7f3-b588-41f6-ab1d-9b779d3e5fbb"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9beedc90-1f84-46f4-a6df-34f652967afc">
+                    <propertyInstance
+                      Id="d05b9537-ec96-41a9-911f-78dd7a207f09"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6482fcc9-b24a-48cf-8009-27c820800418">
+                    <propertyInstance
+                      Id="0f1b8863-a9f2-4693-ad1d-64a35e8b6afe"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b877019-1104-4443-a0da-26cfbd4e8fca">
+                    <propertyInstance
+                      Id="3970ca59-f9a4-4fca-b491-2fe046e379a5"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1a390d0-0778-4c5f-a5e5-2a186c34a332">
+                    <propertyInstance
+                      Id="a5760adc-3673-4aa1-aca7-0e346af0e5d2"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e1c1bd0-d556-4ca0-95bd-aec4576f9226">
+                    <propertyInstance
+                      Id="8ce1abaf-c4b7-4f73-a967-486520f91cdf"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c54fdb67-040d-41a3-8e07-3b0a955325be"
+            name="plateNumber"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5e32e3a2-fa21-4cef-8ad9-5e0162b93292"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dcostumer ParentType%3DDataManagment) Member%3DplateNumber"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="53355c1d-949e-4fc0-9182-2d234700da0c"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34384bd1-68e8-4a98-9d99-4507fc9b8fd4">
+                    <propertyInstance
+                      Id="0f2ac350-3901-41b6-8d74-5f5c60355a46"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ee454ad-1191-4c1e-bf4e-bbff6820e171">
+                    <propertyInstance
+                      Id="28760b03-63b5-4572-9a47-293d82bcf774"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73931e7a-aded-4a73-b0e2-ecf3f733359f">
+                    <propertyInstance
+                      Id="d0e25fe8-8e0e-44d0-beb0-5482a85858f1"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8b7aeec-8dee-4708-a7cd-ad219c14a9fd">
+                    <propertyInstance
+                      Id="2fbf39b7-49f1-4c8c-bcfd-06019c0281ac"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c828d74e-f954-482f-a47e-38dabf16e113">
+                    <propertyInstance
+                      Id="aa979681-e429-44c8-a922-4550f0cad074"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d8a5ce1f-fbc1-41ae-b356-cfc4fba379c5"
+            name="password"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5527700d-e4d1-4c37-b981-b7a59cb6cf98"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dcostumer ParentType%3DDataManagment) Member%3Dpassword"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="edcf883c-e6c9-4d41-8458-349ddd34d809"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5382540-e079-4761-ac76-5912bc89d257">
+                    <propertyInstance
+                      Id="2a8d45ed-2279-4309-ae2d-33f8bb519617"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c96bfaf4-221e-4047-816b-19028c7598da">
+                    <propertyInstance
+                      Id="b154192a-ced8-4e1a-ae1b-f34bb0fc1280"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c1236e6d-e71e-4d16-bfac-c2bc2c528548">
+                    <propertyInstance
+                      Id="598673d9-356f-4c0c-a51a-e84bbb7de85b"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d362b31b-c906-4cdc-a4e7-312f944e0f7b">
+                    <propertyInstance
+                      Id="41709ab4-bbee-4c06-8742-9ba5f04a0e25"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e53ddc37-2189-4235-be19-c36d83fb38dd">
+                    <propertyInstance
+                      Id="408c6cf3-5648-4231-b3eb-89b1362cde29"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="805c3b2c-18a2-4629-a778-a94dcdbaac6c"
+            name="costumer"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0844d135-a49f-4c7a-8ea7-5d54f11cab52"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dcostumer ParentType%3DDataManagment) Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7e1ac3f5-461c-4b71-bb97-28c29bad7311"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="334c168e-2862-43e6-ba4a-e91b498c3ca3">
+                    <propertyInstance
+                      Id="4f865a0a-b6d2-4632-a61f-2063d59fe6cd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5de076fc-07fe-4efa-a67a-f6f890369152">
+                    <propertyInstance
+                      Id="cb3bd55f-1000-41da-bb55-c47af4652e64"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee1eb54a-4902-4685-8a7b-bbc4d989c7c0">
+                    <propertyInstance
+                      Id="89e2e05a-dbf4-440a-87ab-84ec748de29c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="238eb82b-d4f0-4b63-9f0f-1630cb664136">
+                    <propertyInstance
+                      Id="3ac7f852-c262-4c26-9f06-ff7cc39bd93d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="637c2119-3b91-43b1-afc0-19284fc9af54">
+                    <propertyInstance
+                      Id="55688e43-e111-481c-a197-1026e506c49e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="122a9e52-126a-4e78-9505-d4ec8542eaaf">
+                    <propertyInstance
+                      Id="41d321ae-3618-44e5-b2e0-f4e5c2e7011a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="55cb8e58-2009-4b6a-a773-80052c1a1f7a"
+        name="appontment"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="fe8b88b2-bcc7-4c01-981f-82d38553d639"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dappontment ParentType%3DDataManagment)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d532be1e-0b7a-46b1-a141-9ebbab33f611"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a4612924-e2c5-477a-86cb-9f7d80dc9123">
+                <propertyInstance
+                  Id="a60e8c2b-e34f-4c4f-917e-fc5bc4e590ce"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aa86feb8-bbee-4188-a28b-e57022e7b40d">
+                <propertyInstance
+                  Id="57a80ae1-58fa-488a-8f5e-4655b972aea6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0ee4dd28-62cf-4269-91fb-84fa050ff381">
+                <propertyInstance
+                  Id="a13282a7-1527-448f-bff2-83c9f73581ac"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5cacb2e9-c72a-4ddd-933c-8f082d71d997">
+                <propertyInstance
+                  Id="e4863a05-bac0-4e02-b851-37703c78a109"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="21a74b5a-48c4-4da0-b32c-8522cb1b52dc">
+                <propertyInstance
+                  Id="18a39cd9-b7de-424e-adaf-6251369c29dd"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="c9fe6aa7-080d-4e92-a189-f942e549de9a"
+            name="ID"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a742ed8f-01bc-437f-8b4b-aecc6d5440b8"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dappontment ParentType%3DDataManagment) Member%3DID"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="35b88abf-d3e5-4527-a40a-4049a0931796"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="15e72175-57fb-4671-969a-6c19424d2182">
+                    <propertyInstance
+                      Id="743b5808-b99f-44fb-b5b7-f7efa89e5046"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27552369-ff53-4d5b-938b-c5de0054df75">
+                    <propertyInstance
+                      Id="deea5c0f-268d-4b8a-9fa1-f575e2641e2a"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31b90f45-7429-4d57-8e94-358da4c41425">
+                    <propertyInstance
+                      Id="30163c4f-b986-4dcc-ab58-58b1320dbd14"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27b236ff-a550-45a1-8bb0-5270bfe4d2d8">
+                    <propertyInstance
+                      Id="13206704-8ab9-4df9-b668-c3f605c32748"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ff5bfc7-3324-4b1b-81f2-2dd161bc7813">
+                    <propertyInstance
+                      Id="864bdfa5-508e-41c8-9b2c-fb5ed6385860"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="93355a46-08bf-42f1-8fa5-478ca5796786"
+            name="costumerID"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ba3f6cf5-fdb2-4a43-b87b-dd7228fe50e5"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dappontment ParentType%3DDataManagment) Member%3DcostumerID"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e2c6193a-74ce-44c2-8859-c557b40191e0"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe9ab9df-299b-4805-a18f-7b80998547a1">
+                    <propertyInstance
+                      Id="c98c8289-f200-4453-96af-56284bb6fcde"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="36429fa6-611c-4486-9c11-3bd56f0cff3e">
+                    <propertyInstance
+                      Id="c5e320ef-0434-4661-a5f1-2d3904369501"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="559b9221-d2d1-459e-9937-f2b50f1782ae">
+                    <propertyInstance
+                      Id="1bf43ad6-f363-4afa-bf2a-d016698a3130"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="efa0a4e1-d88a-47c4-b8cc-b2a9cab9c3fa">
+                    <propertyInstance
+                      Id="3fc72d35-28bf-4a41-b414-bca0b17498cc"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d456ed1-5260-4ef9-9d15-829118c08d46">
+                    <propertyInstance
+                      Id="3a5e6747-a93c-4252-a3dc-28ecd6ab88dc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="3b23332e-5543-4be4-9819-010e94be9683"
+            name="date"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="77510d14-1303-430e-ad69-7da4d47fc340"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dappontment ParentType%3DDataManagment) Member%3Ddate"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0ce7063d-0198-4c3d-8042-07cdc50de4cc"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d7854179-46e1-49ec-b76c-2aafe51539ba">
+                    <propertyInstance
+                      Id="cbfe29c6-f81b-4414-9f47-04016488970f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ecd8d6fc-ccfc-4248-a691-c814ee8b342d">
+                    <propertyInstance
+                      Id="8be0be9b-7a10-49b2-9ea7-63344984954a"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8945dc05-ac76-49d5-8c68-5e4df3aafea5">
+                    <propertyInstance
+                      Id="4ab8a862-2b8f-4ddb-a9f6-74a1ed352164"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2214e255-9573-4d18-bad0-18b53ad74a19">
+                    <propertyInstance
+                      Id="1bc279db-53b4-46dd-a031-9bed0dac6d05"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cedd21c1-9212-4fa2-9269-dfa8457cd8e6">
+                    <propertyInstance
+                      Id="db6767be-fc55-401c-a74f-3d3a4ac437ba"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="92471a22-1c24-4317-b78c-c05a1fb1f68f"
+                LastKnownName="DateTime"
+                LastKnownLocation="Package1_1323.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="4b02f1be-7cd3-4680-a094-f927cc348849"
+            name="time"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="6c21eaf0-9ad3-49ae-b78e-f6f22d1f827c"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dappontment ParentType%3DDataManagment) Member%3Dtime"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bfadf4a5-6ec1-46b9-942e-7d8b41bc05ee"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b3d3f746-1f74-437a-86ee-1e737a5dc4cf">
+                    <propertyInstance
+                      Id="5bc81831-30e9-4ae8-b558-ceb7a3849c33"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0ad2ebc-a54b-42d3-bd2f-ca5ffa315b92">
+                    <propertyInstance
+                      Id="3e908e6a-f258-43d9-b751-62abf72d1f6b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2334fa84-efac-437e-bcff-6d361ad6dfca">
+                    <propertyInstance
+                      Id="9ebd9533-da91-487c-81e2-50e85e48fe60"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ce122d9-78c5-4e3e-ae75-32195607b4dd">
+                    <propertyInstance
+                      Id="59871be0-6951-4336-b600-930308cc2eac"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c2023dc-972f-44f9-bf49-c56e107c3721">
+                    <propertyInstance
+                      Id="efdbfaa0-69dd-47d2-a343-3dd68962d7e7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="39589226-405b-4ae3-a045-27f00859f343"
+                LastKnownName="TimeSpan"
+                LastKnownLocation="Package1_1323.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="5cc357b1-0120-47f7-9db6-44c314ab654f"
+            name="appontment"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8d460e6c-fe78-4b31-bdeb-78abca88012d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dappontment ParentType%3DDataManagment) Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5ac94069-4009-43ab-aa0a-4f73b8b04c8e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f2ca601d-7547-4694-ac4f-da1cf8b5051c">
+                    <propertyInstance
+                      Id="174e1abd-2e8a-4639-8d47-a13515bdb446"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9cf63b63-d2f8-49b1-b45c-3171652dc248">
+                    <propertyInstance
+                      Id="32311d96-c385-433f-8674-69a8fb082237"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="88c20910-3994-4ec8-b900-f98fc8d6e43e">
+                    <propertyInstance
+                      Id="0855f98e-0482-4b0d-9862-552dd9985b8e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41e3bf29-ac78-41ec-8800-71ee20506293">
+                    <propertyInstance
+                      Id="e9226d9d-0b81-409e-8179-e6904da3f3b7"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56513660-959a-4d7a-861c-b40fc0f6b572">
+                    <propertyInstance
+                      Id="1844cc0b-af48-4ad9-8379-4f81c0a268cf"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9254893-00b6-4823-b2d9-3bb4ed60768a">
+                    <propertyInstance
+                      Id="11150b8a-3106-49e4-9d04-1b5c57b26041"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f117b8ce-3f66-46a4-a5fd-5a192f6248e6"
+        name="task"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6dd32360-9963-4bc7-9e42-950bbac34853"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dtask ParentType%3DDataManagment)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="8e76c035-d32c-40c3-8f2e-7b5bc7d793cc"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ff3392b6-23e9-4ed7-8ad2-7e4208b091c4">
+                <propertyInstance
+                  Id="c775e392-671d-4fd6-b3a8-f94b1a03d7d7"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="363fa2f8-7bf5-42f1-a45e-70f738007dd6">
+                <propertyInstance
+                  Id="61298945-6c8f-489d-a44a-177695d60036"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="28702cf7-a8bc-45f5-bbd5-1296eb1fdd43">
+                <propertyInstance
+                  Id="c91e2fda-d80a-433b-9d85-5ee95395a1c5"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="383a8184-aac1-4a8a-ab2e-b5bae70bc6b4">
+                <propertyInstance
+                  Id="7d18db62-6e60-471c-ade4-ad07dee9ca90"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6195bccf-b443-4c6f-85da-1823ded3190d">
+                <propertyInstance
+                  Id="b3a7bbe0-347e-43f3-865c-6459516e48bb"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="84712c0f-b4d5-4527-971c-d111f42ade87"
+            name="ID"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="16d165d9-6819-4092-9917-0a960e06c332"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dtask ParentType%3DDataManagment) Member%3DID"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="385c9304-5ea5-4e59-b611-e8965c306c42"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e34f6d10-8c7e-4222-ae24-80551b56b639">
+                    <propertyInstance
+                      Id="6fa1e14e-79f4-4692-a08e-1b9c7ed659ae"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f0cd981-761b-475c-ba82-87cce1a09f86">
+                    <propertyInstance
+                      Id="159846cc-36be-492f-bb96-652740d6765c"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b907181d-3bbe-49c0-8554-d9ab8fd77fa8">
+                    <propertyInstance
+                      Id="551eab66-cc69-4905-815a-79b0b6091177"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18127b2e-fc0f-4b74-9563-27f57dcc43cd">
+                    <propertyInstance
+                      Id="3fc83ae5-2a8a-453d-a44f-07235c46a11d"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ed07057-8769-460c-be9d-7ce775d5bd44">
+                    <propertyInstance
+                      Id="78903cb6-e67b-4ca2-b03b-648888439b49"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e7f578c2-984c-46b9-9825-ddfbcdfb86cb"
+            name="appID"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="fd463bdf-8ddb-4a8d-b516-78be0c53cf41"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dtask ParentType%3DDataManagment) Member%3DappID"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bf299839-4fec-497a-9a5d-a371a60ae905"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3b64c3a-66f9-46b6-9d98-fa04b49608ba">
+                    <propertyInstance
+                      Id="4bfbd230-bbb0-41e3-977a-ac77d1ba47b4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d48fd6bc-30df-43eb-a5c4-7ded37380c8b">
+                    <propertyInstance
+                      Id="68bffa81-eccb-41ea-bef5-034f39b064be"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea8136a7-2621-42ae-b255-0f9fa6538b8e">
+                    <propertyInstance
+                      Id="d2179776-ec88-4be1-9f75-8d397338e257"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48be1d84-5e7d-4c5f-8975-a22b88c78a19">
+                    <propertyInstance
+                      Id="9453daf9-2a16-4edd-8d11-f84b0ad691a9"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f771c21d-4a16-48ed-80a0-6916d916e210">
+                    <propertyInstance
+                      Id="0e6a0072-ddc5-4479-83fd-1b6db3c51124"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="27272af9-5589-4c19-9324-04bafbd3e0f2"
+            name="status"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c6403411-5b9c-4e0a-afbc-49f138692d43"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dtask ParentType%3DDataManagment) Member%3Dstatus"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7e80fa8f-263d-40de-a872-169459c0f227"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57cac4e5-c8ba-40f7-a58b-95573c38163c">
+                    <propertyInstance
+                      Id="e7fe3225-1759-4db8-8e50-f0ba72cbabe7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e830de3c-bdf2-4dac-a1d8-a71e9cf3a2cb">
+                    <propertyInstance
+                      Id="976add3f-3e21-4f52-8249-45aeb3fec441"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d37c3068-1c15-4882-b008-f65318bb271e">
+                    <propertyInstance
+                      Id="c5485b73-1fdf-42ad-923f-6bcfd3376fff"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fbac62d8-e800-4241-aac6-7a8237919df0">
+                    <propertyInstance
+                      Id="b61946ca-11b0-4d81-851e-264cf345e81a"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="43dacf2a-7832-4f0a-ab55-da985e4957a5">
+                    <propertyInstance
+                      Id="1c8efdca-729b-4d15-b56b-c6d7feafe9d2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c763f525-d33f-41f2-9997-19e322a51bf3"
+            name="name"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="37842581-efcc-4fb6-81ba-76b76dd3c9a6"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dtask ParentType%3DDataManagment) Member%3Dname"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="54c3da1a-ee34-4dc3-b33e-f789939ab5b5"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2ce9be5b-28f8-4d8d-99aa-b34fc12ed461">
+                    <propertyInstance
+                      Id="c4a3bfb3-8a86-447f-9268-901089101683"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b384b08-7a98-4f69-9a37-f1f484f4be2d">
+                    <propertyInstance
+                      Id="72d45f95-1028-45df-a930-d04216f3a2f6"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f9904d6-4485-4478-92aa-e82587063b72">
+                    <propertyInstance
+                      Id="54b4abdd-75b0-4f7b-87b5-04c509d3e7f4"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0643a8e5-d4b8-4408-add8-82297bc7f6cf">
+                    <propertyInstance
+                      Id="e840aff0-16d1-4abd-961b-9f2ae675d956"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e09fa65e-51cf-4b39-b31a-341686d6ec12">
+                    <propertyInstance
+                      Id="de9a6a75-a13f-4d10-877c-61a5c7d04dd1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="9fa332cd-701b-4842-8a4c-2cde31400d63"
+            name="description"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="518db820-9ce0-4c6f-a9d6-3b4e9cf81ead"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dtask ParentType%3DDataManagment) Member%3Ddescription"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="20360eff-581b-42ca-81c1-49080abcb1d6"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03c8e548-c7fb-4338-bad0-158eb45439d2">
+                    <propertyInstance
+                      Id="1b668e5e-1989-4b69-9944-f5d72f5f2bef"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b1529b23-e8a0-483f-b56d-9dc8b3fa0c9c">
+                    <propertyInstance
+                      Id="61402360-ffd1-4594-8ebc-7e7ebde808fc"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a61e33ab-3832-4691-bf41-531a05ce8964">
+                    <propertyInstance
+                      Id="f2dcc057-86c6-44e4-9259-22c61660f6c5"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ab855f9-9fa2-48d4-b198-e30ad57a4ba0">
+                    <propertyInstance
+                      Id="279e2c10-cf6f-4916-bb3f-8488d2309404"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c2267bea-5744-45dd-b674-6e4dfac4f24f">
+                    <propertyInstance
+                      Id="42ade2af-ca16-42c3-80dc-1eb6de693a38"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="47cc3927-433d-4b2f-824b-4f77eb656077"
+            name="task"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="21a394b8-2f27-4517-988d-040d1e59ef3f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmohammad%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fautomotive repair shop%2Fautomotive repair shop%2Fbin%2Fautomotive repair shop.dll&quot; Type%3D(Name%3Dtask ParentType%3DDataManagment) Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9ce0846a-e632-4582-bfd5-e2cfeed0bce3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="678c50bd-3f14-4fa8-a898-a296612a4d0e">
+                    <propertyInstance
+                      Id="17f9ac9c-681d-4897-aded-d7eada9c53e4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f13d2280-79cd-4c80-b789-1573205c9010">
+                    <propertyInstance
+                      Id="695ae147-8217-4373-818e-efd913f319fc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45e6e3bf-45df-445b-903e-8c363bd79030">
+                    <propertyInstance
+                      Id="425e3d97-12a0-4aaa-8b2c-f9f3593f8fd3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb955883-1ece-40be-8d41-5c89c1cd2ec6">
+                    <propertyInstance
+                      Id="5a398651-33a9-4535-9801-909711cefb8e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="287afa88-f2d6-48f7-98e6-3896e578d416">
+                    <propertyInstance
+                      Id="0a8398c4-5e76-4fff-9c60-6432266c5d1f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca39208a-c94c-4c97-933c-a80e1cf752c6">
+                    <propertyInstance
+                      Id="d8ba4a1e-fa41-4fe6-a467-d9c594458d66"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

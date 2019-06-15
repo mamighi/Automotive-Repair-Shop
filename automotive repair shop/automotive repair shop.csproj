@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A0EDAF6A-3ADF-4274-89B3-E2F5A582B177}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>automotive_repair_shop</RootNamespace>
+    <AssemblyName>automotive repair shop</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="changePassword.aspx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="costumerMain.aspx" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\magnific-popup.css" />
+    <Content Include="css\owl.carousel.css" />
+    <Content Include="css\style.css" />
+    <Content Include="default.aspx" />
+    <Content Include="DeleteCostumer.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="images\abt.jpg" />
+    <Content Include="images\abt1.jpg" />
+    <Content Include="images\abt2.jpg" />
+    <Content Include="images\b2.jpg" />
+    <Content Include="images\b3.jpg" />
+    <Content Include="images\cal-l.jpg" />
+    <Content Include="images\cal-r.jpg" />
+    <Content Include="images\close.png" />
+    <Content Include="images\GenerateReport.png" />
+    <Content Include="images\l.jpg" />
+    <Content Include="images\NewAppointment.png" />
+    <Content Include="images\NewCostumer.png" />
+    <Content Include="images\next.png" />
+    <Content Include="images\our-comp.jpg" />
+    <Content Include="images\our-comp2.jpg" />
+    <Content Include="images\our-comp3.jpg" />
+    <Content Include="images\our-comp4.jpg" />
+    <Content Include="images\PerformedTasks.jpg" />
+    <Content Include="images\prev.png" />
+    <Content Include="images\ql.jpg" />
+    <Content Include="images\r.jpg" />
+    <Content Include="images\soc.png" />
+    <Content Include="images\tem.jpg" />
+    <Content Include="images\tem1.jpg" />
+    <Content Include="images\tem2.jpg" />
+    <Content Include="images\tem3.jpg" />
+    <Content Include="images\tem4.jpg" />
+    <Content Include="images\tem5.jpg" />
+    <Content Include="images\top-arrow.png" />
+    <Content Include="images\UpcomingApointments.png" />
+    <Content Include="images\User Anonymous Red Delete.jpg" />
+    <Content Include="images\wrk1.jpg" />
+    <Content Include="images\wrk10.jpg" />
+    <Content Include="images\wrk11.jpg" />
+    <Content Include="images\wrk12.jpg" />
+    <Content Include="images\wrk2.jpg" />
+    <Content Include="images\wrk3.jpg" />
+    <Content Include="images\wrk4.jpg" />
+    <Content Include="images\wrk5.jpg" />
+    <Content Include="images\wrk6.jpg" />
+    <Content Include="images\wrk7.jpg" />
+    <Content Include="images\wrk8.jpg" />
+    <Content Include="images\wrk9.jpg" />
+    <Content Include="Index.aspx" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\easing.js" />
+    <Content Include="js\jquery-2.1.4.min.js" />
+    <Content Include="js\move-top.js" />
+    <Content Include="js\nivo-lightbox.min.js" />
+    <Content Include="js\owl.carousel.js" />
+    <Content Include="logout.aspx" />
+    <Content Include="NewAppointment.aspx" />
+    <Content Include="NewCostumer.aspx" />
+    <Content Include="PerformedTask.aspx" />
+    <Content Include="Profile.aspx" />
+    <Content Include="Report.aspx" />
+    <Content Include="ShopMain.aspx" />
+    <Content Include="Success.aspx" />
+    <Content Include="Upcoming.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Code\DataBase.cs" />
+    <Compile Include="App_Code\DataManagment.cs" />
+    <Compile Include="changePassword.aspx.cs">
+      <DependentUpon>changePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="changePassword.aspx.designer.cs">
+      <DependentUpon>changePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="costumerMain.aspx.cs">
+      <DependentUpon>costumerMain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="costumerMain.aspx.designer.cs">
+      <DependentUpon>costumerMain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteCostumer.aspx.cs">
+      <DependentUpon>DeleteCostumer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteCostumer.aspx.designer.cs">
+      <DependentUpon>DeleteCostumer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewAppointment.aspx.cs">
+      <DependentUpon>NewAppointment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewAppointment.aspx.designer.cs">
+      <DependentUpon>NewAppointment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewCostumer.aspx.cs">
+      <DependentUpon>NewCostumer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewCostumer.aspx.designer.cs">
+      <DependentUpon>NewCostumer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PerformedTask.aspx.cs">
+      <DependentUpon>PerformedTask.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PerformedTask.aspx.designer.cs">
+      <DependentUpon>PerformedTask.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report.aspx.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report.aspx.designer.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShopMain.aspx.cs">
+      <DependentUpon>ShopMain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShopMain.aspx.designer.cs">
+      <DependentUpon>ShopMain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Success.aspx.cs">
+      <DependentUpon>Success.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Success.aspx.designer.cs">
+      <DependentUpon>Success.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Upcoming.aspx.cs">
+      <DependentUpon>Upcoming.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Upcoming.aspx.designer.cs">
+      <DependentUpon>Upcoming.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>23144</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:23144/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
